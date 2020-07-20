@@ -5,13 +5,16 @@ import Hello from './components/Hello';
 import { render } from '@testing-library/react';
 import Greet from './components/Greet';
 import ClassComponent from './components/ClassComponent'
+import GreetProps from './components/GreetProps';
 
 function App() {
   return (
     <div className="App">
       {/* <Hello /> */}
       {/* <Greet /> */}
-      <ClassComponent />
+      {/* <ClassComponent /> */}
+      <GreetProps name="Rajesh" id="123" />
+      <GreetProps name="Suresh" id="456" />
     </div>
   );
 }
