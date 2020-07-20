@@ -7,6 +7,7 @@ import Greet from './components/Greet';
 import ClassComponent from './components/ClassComponent'
 import GreetProps from './components/GreetProps';
 import ClassProps from './components/ClassProps'
+import MessageState from './components/MessageState';
 
 function App() {
   return (
@@ -17,10 +18,12 @@ function App() {
       {/* <GreetProps name="Rajesh" id="123"><p>He is a engineer</p></GreetProps>
       <GreetProps name="Suresh" id="456" ><button>Action</button></GreetProps>
       <GreetProps name="Suresh" id="456" /> */}
-      <ClassProps name='Jayanth' />
+      {/* <ClassProps name='Jayanth' />
       <ClassProps name='Thrinath' />
       <ClassProps />
-      <ClassProps name='Tarun'><p>this is child</p></ClassProps>
+      <ClassProps name='Tarun'><p>this is child</p></ClassProps> */}
+
+      <MessageState />
     </div>
   );
 }
