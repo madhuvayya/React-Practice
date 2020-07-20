@@ -9,8 +9,19 @@ class MessageState extends Component {
         }
     }
 
+    changeMessage() {
+        this.setState({
+            message:'Thank you visit again'
+        }) 
+    }
+
     render() {
-    return <h2>{this.state.message}</h2>;
+        return (
+            <div>
+                <h2>{this.state.message}</h2>
+                <button onClick= {() => this.changeMessage() }>click</button>
+            </div>
+        )
     } 
 }
 
