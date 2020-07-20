@@ -13,7 +13,8 @@ function App() {
       {/* <Hello /> */}
       {/* <Greet /> */}
       {/* <ClassComponent /> */}
-      <GreetProps name="Rajesh" id="123" />
+      <GreetProps name="Rajesh" id="123"><p>He is a engineer</p></GreetProps>
+      <GreetProps name="Suresh" id="456" ><button>Action</button></GreetProps>
       <GreetProps name="Suresh" id="456" />
     </div>
   );
