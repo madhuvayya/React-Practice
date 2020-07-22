@@ -10,6 +10,7 @@ import ClassProps from './components/ClassProps'
 import MessageState from './components/MessageState';
 import ConditionalRendering from './components/ConditionalRendering'
 import Constructor from './components/Constructor'
+import GetDerivedStateFromProps from './components/GetDerivedStateFromProps'
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       <ClassProps name='Tarun'><p>this is child</p></ClassProps> */}
       {/* <MessageState /> */}
       {/* <ConditionalRendering /> */}
-      <Constructor />
+      {/* <Constructor /> */}
+      <GetDerivedStateFromProps favcol="yellow"/>
     </div>
   );
 }
