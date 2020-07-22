@@ -8,6 +8,7 @@ import ClassComponent from './components/ClassComponent'
 import GreetProps from './components/GreetProps';
 import ClassProps from './components/ClassProps'
 import MessageState from './components/MessageState';
+import ConditionalRendering from './components/ConditionalRendering'
 
 function App() {
   return (
@@ -22,8 +23,8 @@ function App() {
       <ClassProps name='Thrinath' />
       <ClassProps />
       <ClassProps name='Tarun'><p>this is child</p></ClassProps> */}
-
-      <MessageState />
+      {/* <MessageState /> */}
+      <ConditionalRendering />
     </div>
   );
 }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-class MessageState extends Component {
-    
+class MessageState extends Component { 
     constructor(){
         super();
         this.state = {
