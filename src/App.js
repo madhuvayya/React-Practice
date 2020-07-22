@@ -11,6 +11,7 @@ import MessageState from './components/MessageState';
 import ConditionalRendering from './components/ConditionalRendering'
 import Constructor from './components/Constructor'
 import GetDerivedStateFromProps from './components/GetDerivedStateFromProps'
+import ComponentDidMount from './components/ComponentDidMount'
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <MessageState /> */}
       {/* <ConditionalRendering /> */}
       {/* <Constructor /> */}
-      <GetDerivedStateFromProps favcol="yellow"/>
+      {/* <GetDerivedStateFromProps favcol="yellow"/> */}
+      <ComponentDidMount />
     </div>
   );
 }
