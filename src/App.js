@@ -9,6 +9,7 @@ import GreetProps from './components/GreetProps';
 import ClassProps from './components/ClassProps'
 import MessageState from './components/MessageState';
 import ConditionalRendering from './components/ConditionalRendering'
+import Constructor from './components/Constructor'
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       <ClassProps />
       <ClassProps name='Tarun'><p>this is child</p></ClassProps> */}
       {/* <MessageState /> */}
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+      <Constructor />
     </div>
   );
 }
