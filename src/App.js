@@ -14,6 +14,7 @@ import GetDerivedStateFromProps from './components/GetDerivedStateFromProps'
 import ComponentDidMount from './components/ComponentDidMount'
 import ShouldComponentUpdate from './components/ShouldComponentUpdate'
 import GetSnapShot from './components/GetSnapShot'
+import ComponentDidUpdate from './components/ComponentDidUpdate'
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
       {/* <GetDerivedStateFromProps favcol="yellow"/> */}
       {/* <ComponentDidMount /> */}
       {/* <ShouldComponentUpdate /> */}
-      <GetSnapShot />
+      {/* <GetSnapShot /> */}
+      <ComponentDidUpdate />
     </div>
   );
 }
