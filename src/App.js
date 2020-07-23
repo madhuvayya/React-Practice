@@ -12,6 +12,7 @@ import ConditionalRendering from './components/ConditionalRendering'
 import Constructor from './components/Constructor'
 import GetDerivedStateFromProps from './components/GetDerivedStateFromProps'
 import ComponentDidMount from './components/ComponentDidMount'
+import ShouldComponentUpdate from './components/ShouldComponentUpdate'
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <ConditionalRendering /> */}
       {/* <Constructor /> */}
       {/* <GetDerivedStateFromProps favcol="yellow"/> */}
-      <ComponentDidMount />
+      {/* <ComponentDidMount /> */}
+      <ShouldComponentUpdate />
     </div>
   );
 }
