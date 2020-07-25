@@ -17,6 +17,7 @@ import GetSnapShot from './components/GetSnapShot'
 import ComponentDidUpdate from './components/ComponentDidUpdate'
 import Event from './components/Event'
 import EventPassingArgument from './components/EventPassingArgument'
+import MyForm from './components/MyForm';
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <GetSnapShot /> */}
       {/* <ComponentDidUpdate /> */}
       {/* <Event /> */}
-      <EventPassingArgument />
+      {/* <EventPassingArgument /> */}
+      <MyForm />
     </div>
   );
 }
