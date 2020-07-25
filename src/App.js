@@ -16,6 +16,7 @@ import ShouldComponentUpdate from './components/ShouldComponentUpdate'
 import GetSnapShot from './components/GetSnapShot'
 import ComponentDidUpdate from './components/ComponentDidUpdate'
 import Event from './components/Event'
+import EventPassingArgument from './components/EventPassingArgument'
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <ShouldComponentUpdate /> */}
       {/* <GetSnapShot /> */}
       {/* <ComponentDidUpdate /> */}
-      <Event />
+      {/* <Event /> */}
+      <EventPassingArgument />
     </div>
   );
 }
