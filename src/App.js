@@ -19,6 +19,7 @@ import Event from './components/Event'
 import EventPassingArgument from './components/EventPassingArgument'
 import MyForm from './components/MyForm';
 import UseStateHook from './components/UseStateHook'
+import UseEffectHook from './components/UseEffectHook'
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       {/* <Event /> */}
       {/* <EventPassingArgument /> */}
       {/* <MyForm /> */}
-      <UseStateHook />
+      {/* <UseStateHook /> */}
+      <UseEffectHook />
     </div>
   );
 }
