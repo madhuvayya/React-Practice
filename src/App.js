@@ -18,6 +18,7 @@ import ComponentDidUpdate from './components/ComponentDidUpdate'
 import Event from './components/Event'
 import EventPassingArgument from './components/EventPassingArgument'
 import MyForm from './components/MyForm';
+import UseStateHook from './components/UseStateHook'
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
       {/* <ComponentDidUpdate /> */}
       {/* <Event /> */}
       {/* <EventPassingArgument /> */}
-      <MyForm />
+      {/* <MyForm /> */}
+      <UseStateHook />
     </div>
   );
 }
