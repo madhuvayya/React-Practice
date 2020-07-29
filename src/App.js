@@ -22,6 +22,7 @@ import UseStateHook from './components/UseStateHook'
 import UseEffectHook from './components/UseEffectHook'
 import RefDemo from './components/RefDemo'
 import KeyDemo from './components/KeyDemo'
+import List from './components/List'
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
       {/* <UseStateHook /> */}
       {/* <UseEffectHook /> */}
       {/* <RefDemo /> */}
-      <KeyDemo />
+      {/* <KeyDemo /> */}
+      <List />
     </div>
   );
 }
