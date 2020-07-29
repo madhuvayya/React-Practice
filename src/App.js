@@ -23,6 +23,7 @@ import UseEffectHook from './components/UseEffectHook'
 import RefDemo from './components/RefDemo'
 import KeyDemo from './components/KeyDemo'
 import List from './components/List'
+import Fragment from './components/Fragment'
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <UseEffectHook /> */}
       {/* <RefDemo /> */}
       {/* <KeyDemo /> */}
-      <List />
+      {/* <List /> */}
+      <Fragment />
     </div>
   );
 }
