@@ -24,6 +24,7 @@ import RefDemo from './components/RefDemo'
 import KeyDemo from './components/KeyDemo'
 import List from './components/List'
 import Fragment from './components/Fragment'
+import OnclickEvent from './components/OnclickEvent'
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
       {/* <RefDemo /> */}
       {/* <KeyDemo /> */}
       {/* <List /> */}
-      <Fragment />
+      {/* <Fragment /> */}
+      <OnclickEvent />
     </div>
   );
 }
