@@ -26,6 +26,7 @@ import List from './components/List'
 import Fragment from './components/Fragment'
 import OnclickEvent from './components/OnclickEvent'
 import ReactMethods from './components/ReactMethods'
+import Clock from './components/Clock'
 
 function App() {
   return (
@@ -58,7 +59,8 @@ function App() {
       {/* <List /> */}
       {/* <Fragment /> */}
       {/* <OnclickEvent /> */}
-      <ReactMethods />
+      {/* <ReactMethods /> */}
+      <Clock />
     </div>
   );
 }
