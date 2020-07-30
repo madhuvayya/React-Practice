@@ -25,6 +25,7 @@ import KeyDemo from './components/KeyDemo'
 import List from './components/List'
 import Fragment from './components/Fragment'
 import OnclickEvent from './components/OnclickEvent'
+import ReactMethods from './components/ReactMethods'
 
 function App() {
   return (
@@ -56,7 +57,8 @@ function App() {
       {/* <KeyDemo /> */}
       {/* <List /> */}
       {/* <Fragment /> */}
-      <OnclickEvent />
+      {/* <OnclickEvent /> */}
+      <ReactMethods />
     </div>
   );
 }
