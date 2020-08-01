@@ -60,7 +60,8 @@ function App() {
       {/* <Fragment /> */}
       {/* <OnclickEvent /> */}
       {/* <ReactMethods /> */}
-      <Clock />
+      {/* <Clock /> */}
+      <RefDemo />
     </div>
   );
 }
