@@ -23,6 +23,8 @@ function LazyComponent() {
     <>
       <Suspense fallback={<div>Loading</div>}>
         <CustomComponent label="Component 1" />
+        </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
         <CustomComponent2 label="Component 2" />
       </Suspense>
     </>
