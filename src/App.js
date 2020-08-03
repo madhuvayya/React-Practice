@@ -30,6 +30,7 @@ import Clock from './components/Clock'
 import LazyComponent from './components/LazyComponent.jsx'
 import ErrorBoundaryImpl from './components/ErrorBoundaryImpl'
 import AuthExample from './components/AuthExample'
+import RouteGurding from './components/RouteGurding'
 
 function App() {
   return (
@@ -67,7 +68,8 @@ function App() {
       {/* <RefDemo /> */}
       {/* <LazyComponent /> */}
       {/* <ErrorBoundaryImpl /> */}
-      <AuthExample />
+      {/* <AuthExample /> */}
+      <RouteGurding />
     </div>
   );
 }
