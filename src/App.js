@@ -29,6 +29,7 @@ import ReactMethods from './components/ReactMethods'
 import Clock from './components/Clock'
 import LazyComponent from './components/LazyComponent.jsx'
 import ErrorBoundaryImpl from './components/ErrorBoundaryImpl'
+import AuthExample from './components/AuthExample'
 
 function App() {
   return (
@@ -65,7 +66,8 @@ function App() {
       {/* <Clock /> */}
       {/* <RefDemo /> */}
       {/* <LazyComponent /> */}
-      <ErrorBoundaryImpl />
+      {/* <ErrorBoundaryImpl /> */}
+      <AuthExample />
     </div>
   );
 }
