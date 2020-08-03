@@ -27,6 +27,7 @@ import Fragment from './components/Fragment'
 import OnclickEvent from './components/OnclickEvent'
 import ReactMethods from './components/ReactMethods'
 import Clock from './components/Clock'
+import LazyComponent from './components/LazyComponent.jsx'
 
 function App() {
   return (
@@ -61,7 +62,8 @@ function App() {
       {/* <OnclickEvent /> */}
       {/* <ReactMethods /> */}
       {/* <Clock /> */}
-      <RefDemo />
+      {/* <RefDemo /> */}
+      <LazyComponent />
     </div>
   );
 }

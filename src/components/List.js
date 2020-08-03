@@ -5,7 +5,7 @@ function List(){
 const list = ['Peter', 'Sachin', 'Kevin', 'Dhoni', 'Alisa'];     
     return  <div>
             <ul>
-            {list.map( person =><li>{person}</li>)}
+            {list.map( (person,index) =><li key={index}>{person}</li>)}
             </ul>   
             </div>
 }
