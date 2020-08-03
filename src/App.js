@@ -28,6 +28,7 @@ import OnclickEvent from './components/OnclickEvent'
 import ReactMethods from './components/ReactMethods'
 import Clock from './components/Clock'
 import LazyComponent from './components/LazyComponent.jsx'
+import ErrorBoundaryImpl from './components/ErrorBoundaryImpl'
 
 function App() {
   return (
@@ -63,7 +64,8 @@ function App() {
       {/* <ReactMethods /> */}
       {/* <Clock /> */}
       {/* <RefDemo /> */}
-      <LazyComponent />
+      {/* <LazyComponent /> */}
+      <ErrorBoundaryImpl />
     </div>
   );
 }
