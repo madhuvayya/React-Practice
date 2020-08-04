@@ -32,6 +32,7 @@ import ErrorBoundaryImpl from './components/ErrorBoundaryImpl'
 import AuthExample from './components/AuthExample'
 import RouteGurding from './components/RouteGurding'
 import ReactWithJS from './components/ReactWithJS'
+import ReactWithoutES6 from './components/ReactWithoutES6'  
 
 function App() {
   return (
@@ -71,7 +72,8 @@ function App() {
       {/* <ErrorBoundaryImpl /> */}
       {/* <AuthExample /> */}
       {/* <RouteGurding /> */}
-      <ReactWithJS toWhat='World' />
+      {/* <ReactWithJS toWhat='World' /> */}
+      <ReactWithoutES6 />
     </div>
   );
 }
