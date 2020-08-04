@@ -1,7 +1,6 @@
 import React, { Component } from 'react' 
 
 class BuggyCounter extends Component {
-
     state = {
         counter: 0
     };

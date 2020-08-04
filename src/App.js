@@ -31,6 +31,7 @@ import LazyComponent from './components/LazyComponent.jsx'
 import ErrorBoundaryImpl from './components/ErrorBoundaryImpl'
 import AuthExample from './components/AuthExample'
 import RouteGurding from './components/RouteGurding'
+import ReactWithJS from './components/ReactWithJS'
 
 function App() {
   return (
@@ -69,7 +70,8 @@ function App() {
       {/* <LazyComponent /> */}
       {/* <ErrorBoundaryImpl /> */}
       {/* <AuthExample /> */}
-      <RouteGurding />
+      {/* <RouteGurding /> */}
+      <ReactWithJS toWhat='World' />
     </div>
   );
 }

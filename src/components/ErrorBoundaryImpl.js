@@ -12,6 +12,10 @@ function ErrorBoundaryImpl() {
       <div>
         <ErrorBoundary>
             <BuggyCounter />
+            <BuggyCounter />
+        </ErrorBoundary>
+        <ErrorBoundary>
+            <BuggyCounter />
         </ErrorBoundary>
         <hr />
         <button>

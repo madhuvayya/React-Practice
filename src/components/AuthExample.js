@@ -106,6 +106,7 @@ function LoginPage() {
   let location = useLocation();
 
   let { from } = location.state || { from: { pathname: "/" } };
+  
   let login = () => {
     fakeAuth.authenticate(() => {
       history.replace(from);
