@@ -33,6 +33,7 @@ import AuthExample from './components/AuthExample'
 import RouteGurding from './components/RouteGurding'
 import ReactWithJS from './components/ReactWithJS'
 import ReactWithoutES6 from './components/ReactWithoutES6'  
+import UseRef from './components/UseRef'
 
 function App() {
   return (
@@ -73,7 +74,8 @@ function App() {
       {/* <AuthExample /> */}
       {/* <RouteGurding /> */}
       {/* <ReactWithJS toWhat='World' /> */}
-      <ReactWithoutES6 />
+      {/* <ReactWithoutES6 /> */}
+      <UseRef />
     </div>
   );
 }
