@@ -34,6 +34,7 @@ import RouteGurding from './components/RouteGurding'
 import ReactWithJS from './components/ReactWithJS'
 import ReactWithoutES6 from './components/ReactWithoutES6'  
 import UseRef from './components/UseRef'
+import Ref from './components/Ref'
 
 function App() {
   return (
@@ -75,7 +76,8 @@ function App() {
       {/* <RouteGurding /> */}
       {/* <ReactWithJS toWhat='World' /> */}
       {/* <ReactWithoutES6 /> */}
-      <UseRef />
+      {/* <UseRef /> */}
+      <Ref />
     </div>
   );
 }
